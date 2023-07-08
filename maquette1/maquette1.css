@@ -1,0 +1,64 @@
+body{
+    background-size: cover;
+    /*background-color: aquamarine;*/
+    background-repeat: repeat;
+}
+
+
+.test{
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    display: flex;
+    justify-content: start;
+}
+
+.txt{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    /*border-top: transparent;*/
+    border-right: transparent;
+    border-left: transparent;
+}
+
+.navBar{
+    margin-top: 25px;
+    color: black;
+    /*position: absolute;
+    top: 65%; left: 10%; right: 10%;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:goldenrod;
+    border-radius: 40px;
+}
+
+.button{
+    background-color: ;
+    text-decoration: none;
+    color: black;
+    border-color: rgb(194, 147, 28); /*rgb(0, 238, 255);*/
+    border-radius: 20px;
+    width: 8%;
+    height: 53px;
+}
+
+.textExplicatif{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+.chammelleImg{
+    background-image: url("photos/chammelle.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px;
+}
